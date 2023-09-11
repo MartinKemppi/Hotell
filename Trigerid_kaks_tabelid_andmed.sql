@@ -52,13 +52,13 @@ where r.id = NEW.id
 
 ---trigger UPDATE XAMPP
 insert into logi(kuupaev, andmed, kasutaja)
-select GETDATE(),
+select NOW(),
 CONCAT(
-'VANAD andmed - ', deleted.number,', ', deleted.name,', ', deleted.status,', ', deleted.smoke,', ', rt1.id,
-' UUED andmed - ', inserted.number,', ', inserted.name,', ', inserted.status,', ', inserted.smoke,', ', rt2.id
+'VANAD andmed - ', OLD.number,', ', OLD.name,', ', OLD.status,', ', OLD.smoke,', ', rt1.id,
+' UUED andmed - ', NEW.number,', ', NEW.name,', ', NEW.status,', ', NEW.smoke,', ', rt2.id
 ),
-USER
-FROM deleted
-inner join inserted on deleted.id = inserted.id
-inner join room_type rt1 on deleted.room_type_id = rt1.id
-inner join room_type rt2 on inserted.room_type_id = rt2.id
+USER()
+FROM room r
+inner join room_type rt1 on OLD.room_type_id = rt1.id
+inner join room_type rt2 on NEW.room_type_id = rt2.id
+where r.id = NEW.id
