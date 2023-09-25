@@ -190,6 +190,8 @@ Insert into ##TestTempTable values(102, 'Joe', 'Female')
 Insert into ##TestTempTable values(103, 'Pam', 'Female')
 Insert into ##TestTempTable values(104, 'James', 'Male')
 
+select * from ##TestTempTable  
+
 Create View vwOnTempTable
 as
 Select Id, Name, Gender
