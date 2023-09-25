@@ -119,6 +119,10 @@ insert into tblProductSales values(1,11);
 insert into tblProductSales values(2,12);
 insert into tblProductSales values(1,14);
 
+
+select * from tblProduct;
+select * from tblProductSales;
+
 create view vWTotalSalesByProduct
 with SchemaBinding
 as
@@ -156,6 +160,8 @@ Insert into tblEmployee values (4,'Todd', 4800, 'Male', 4)
 Insert into tblEmployee values (5,'Sara', 3200, 'Female', 1)
 Insert into tblEmployee values (6,'Ben', 4800, 'Male', 3)
 
+select * from tblEmployee;
+
 Create View vWEmployeeDetails
 @Gender nvarchar(20)
 as
@@ -190,7 +196,7 @@ Insert into ##TestTempTable values(102, 'Joe', 'Female')
 Insert into ##TestTempTable values(103, 'Pam', 'Female')
 Insert into ##TestTempTable values(104, 'James', 'Male')
 
-select * from ##TestTempTable  
+select * from ##TestTempTable
 
 Create View vwOnTempTable
 as
