@@ -17,6 +17,8 @@ begin
 print 'A table has just been created, modified or deleted'
 end
 
+create table Test3(Id int)
+
 alter trigger trMyFirstTrigger
 on database
 for CREATE_TABLE, ALTER_TABLE, DROP_TABLE
@@ -36,6 +38,8 @@ begin
 print 'You just renamed something'
 end
 
+sp_rename 'Test2', 'Test3' 
+
 --93 Server-Scoped DDL triggerid
 
 create trigger tr_DatabaseScopeTrigger
@@ -46,6 +50,8 @@ begin
 rollback
 print 'You cannot create, alter or drop table in the current database'
 end
+
+create table Test4(Id int)
 
 create trigger tr_ServerScopeTrigger
 on all server
@@ -82,14 +88,15 @@ print 'Server Scope Trigger'
 end
 go
 
+create table Test6(Id int)
+
 exec sp_settriggerorder
 
-@triggername = 'tr_DatabaseScopeTrigger',
-@order = 'none',
-@stmttype = 'CREATE_TABLE',
-@namespace = 'DATABASE'
+@triggername = 'tr_DatabaseScopeTrigger', --trigeri nimi
+@order = 'none', --järjestik First, Last v None , trigeri järjestik
+@stmttype = 'CREATE_TABLE', -- mille jaoks teeme (DDL event / insert, update, delete) 
+@namespace = 'DATABASE' --pealkiri , DATABASE, SERVER v NULL
 GO
-
 
 --96 Logon trigger SQL serveris
 
