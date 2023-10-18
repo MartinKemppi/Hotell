@@ -321,3 +321,24 @@ insert into Klient(nimi, perenimi, telefon)
 values('Sauli','Niinistö','55012628');
 insert into Klient(nimi, perenimi, telefon)
 values('Alan','Karris','55335568');
+
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(1,2,1,4);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(2,3,2,9);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(3,1,2,1);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(4,4,3,11);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(5,5,3,14);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(6,6,4,16);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(7,7,4,19);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(8,8,5,21);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(9,9,5,24);
+insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
+values(10,10,6,26);
