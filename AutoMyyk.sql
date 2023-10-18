@@ -107,27 +107,28 @@ select * from Mark
 select * from Mudel
 select * from Salong
 select * from Teenus
+select * from Teenuse_tyyp
 select * from Tootaja
 
 insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('ei','ei','ei','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','jah','jah','jah');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('ei','ei','ei','jah');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('ei','jah','ei','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','ei','ei','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','ei','jah','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','jah','jah','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','jah','ei','ei');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('jah','jah','ei','jah');
-insert into Teenus_tyyp(ost,hooldamine,lising,test_soit)
+insert into Teenuse_tyyp(ost,hooldamine,lising,test_soit)
 values('ei','jah','ei','jah');
 
 insert into Koht(linn, aadress)
@@ -342,3 +343,174 @@ insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
 values(9,9,5,24);
 insert into Teenus(klient,teenuse_tyyp,salong,tootaja)
 values(10,10,6,26);
+
+INSERT into mark(Mark)
+VALUES('Mercedes-Benz');
+INSERT into mark(Mark)
+VALUES('Ford');
+INSERT into mark(Mark)
+VALUES('Nissan');
+INSERT into mark(Mark)
+VALUES('Skoda');
+INSERT into mark(Mark)
+VALUES('Audi');
+INSERT into mark(Mark)
+VALUES('BMW');
+INSERT into mark(Mark)
+VALUES('Porsche');
+INSERT into mark(Mark)
+VALUES('Rolls-Royce');
+INSERT into mark(Mark)
+VALUES('Volkswagen');
+INSERT into mark(Mark)
+VALUES('Lexus');
+
+INSERT INTO mudel(Mudel)
+values('Tourismo');
+INSERT INTO mudel(Mudel)
+values('Focus');
+INSERT INTO mudel(Mudel)
+values('Almera');
+INSERT INTO mudel(Mudel)
+values('Citigo');
+INSERT INTO mudel(Mudel)
+values('A4 allroad');
+INSERT INTO mudel(Mudel)
+values('X4 M40');
+INSERT INTO mudel(Mudel)
+values('911');
+INSERT INTO mudel(Mudel)
+values('Phantom');
+INSERT INTO mudel(Mudel)
+values('Passat');
+INSERT INTO mudel(Mudel)
+values('GX 400');
+
+INSERT INTO kytus(Kytus)
+values('bensiin');
+INSERT INTO kytus(Kytus)
+values('diisel');
+INSERT INTO kytus(Kytus)
+values('hübriid');
+INSERT INTO kytus(Kytus)
+values('elekter');
+INSERT INTO kytus(Kytus)
+values('vesinik');
+INSERT INTO kytus(Kytus)
+values('etanool');
+INSERT INTO kytus(Kytus)
+values('bensiin + gaas (LPG/vedelgaas)');
+INSERT INTO kytus(Kytus)
+values('bensiin + gaas (CNG/surugaas) ');
+INSERT INTO kytus(Kytus)
+values('gaas (LPG/vedelgaas)');
+INSERT INTO kytus(Kytus)
+values('gaas (CNG/surugaas)');
+
+insert into kw(kW)
+values(115);
+insert into kw(kW)
+values(130);
+insert into kw(kW)
+values(90);
+insert into kw(kW)
+values(132);
+insert into kw(kW)
+values(140);
+insert into kw(kW)
+values(218);
+insert into kw(kW)
+values(200);
+insert into kw(kW)
+values(225);
+insert into kw(kW)
+values(300);
+insert into kw(kW)
+values(215);
+
+INSERT into kaigukast(Kaigukast)
+values('manuaal');
+INSERT into kaigukast(Kaigukast)
+values('automaat');
+INSERT into kaigukast(Kaigukast)
+values('poolautomaat');
+
+INSERT into keretyyp(Keretyyp)
+values('sedaan');
+INSERT into keretyyp(Keretyyp)
+values('universaal');
+INSERT into keretyyp(Keretyyp)
+values('kupee');
+INSERT into keretyyp(Keretyyp)
+values('kabriolett');
+INSERT into keretyyp(Keretyyp)
+values('pikap');
+INSERT into keretyyp(Keretyyp)
+values('limusiin');
+INSERT into keretyyp(Keretyyp)
+values('mahtuniversaal');
+INSERT into keretyyp(Keretyyp)
+values('luukpära');
+
+INSERT into aasta(aasta)
+values(2015);
+INSERT into aasta(aasta)
+values(2020);
+INSERT into aasta(aasta)
+values(2023);
+INSERT into aasta(aasta)
+values(2016);
+INSERT into aasta(aasta)
+values(2013);
+INSERT into aasta(aasta)
+values(2010);
+INSERT into aasta(aasta)
+values(2005);
+INSERT into aasta(aasta)
+values(2009);
+INSERT into aasta(aasta)
+values(2008);
+INSERT into aasta(aasta)
+values(1999);
+
+INSERT INTO hind(Hind)
+values(19900);
+INSERT INTO hind(Hind)
+values(32000);
+INSERT INTO hind(Hind)
+values(15000);
+INSERT INTO hind(Hind)
+values(10400);
+INSERT INTO hind(Hind)
+values(5700);
+INSERT INTO hind(Hind)
+values(1190);
+INSERT INTO hind(Hind)
+values(61900);
+INSERT INTO hind(Hind)
+values(8000);
+INSERT INTO hind(Hind)
+values(17990);
+INSERT INTO hind(Hind)
+values(1499);
+
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(1,1,1,1,1,1,1,1,1);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(2,2,2,2,2,2,2,2,2);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(3,3,3,3,3,3,3,3,3);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(4,4,4,4,4,4,4,4,4);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(5,5,5,5,5,5,5,5,5);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(6,6,6,6,6,6,6,6,6);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(7,7,7,7,7,7,7,7,7);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(8,8,8,8,8,8,8,8,8);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(9,9,9,9,9,9,9,9,9);
+INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
+values(10,10,10,10,10,10,10,10,10);
