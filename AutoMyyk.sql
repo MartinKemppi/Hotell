@@ -155,18 +155,146 @@ values('Martin','Kemppi','Esimees',1);
 insert into Tootaja(nimi, perenimi, amet, salong)
 values('Maksim','Tsepeleivits','Asistent',1);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',1);
+values('Anton','Buivol','Insener',1);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',1);
+values('Oleksandr','Bohatyrov','Administrator',1);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',1);
+values('Maksim','Miskeyvits','Tehnik',1);
+
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',2);
+values('Darja','Miljukova','Esimees',2);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',2);
+values('Martin','Nõmiste','Asistent',2);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',2);
+values('Denis','Gorjunov','Insener',2);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',2);
+values('Yaroslav','Yekasov','Administrator',2);
 insert into Tootaja(nimi, perenimi, amet, salong)
-values('Martin','Kemppi','Esimees',2);
+values('Luca','Gluhov','Tehnik',2);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Ekaterina','Mõslaeva','Esimees',3);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Aleksandr','Rogovski','Asistent',3);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Timur','Denisenko','Insener',3);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Maksim','Artjomov','Administrator',3);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Arkadi','Korotõts','Tehnik',3);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Matvei','Kulakovski','Esimees',4);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Veronika','Milovsorova','Asistent',4);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Artur','Shuskeivits','Insener',4);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Maksim','Dotskin','Administrator',4);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Arkadi','Korotõts','Tehnik',4);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Artur','Ploom','Esimees',5);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Maksim','Trubko','Asistent',5);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Aleksandr','Aleksandrov','Insener',5);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Denis','Maltsev','Administrator',5);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Egor','Fedorenko','Tehnik',5);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Ilja','Rõbakov','Esimees',6);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Radion','Radionov','Asistent',6);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Anna','Sohromova','Insener',6);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Igor','Klimov','Administrator',6);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Egor','Klimenko','Tehnik',6);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Artur','Shiposhev','Esimees',7);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Artur','Knazev','Asistent',7);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Tarmo','Pitkve','Insener',7);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Anton','Kravtsuk','Administrator',7);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Georg','Tsernõi','Tehnik',7);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Mart','Suursoo','Esimees',8);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Kristjan','Suursoo','Asistent',8);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Aleksandr','Bekasov','Insener',8);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Anita','Tkatsenko','Administrator',8);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('German','Vasiljev','Tehnik',8);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Igor','Belokurov','Esimees',9);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Natalja','Vasiljeva','Asistent',9);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Irina','Kostromenko','Insener',9);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Ruuth','Bangaduri','Administrator',9);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Quentin','Tarantino','Tehnik',9);
+
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Andre','Michelin','Esimees',10);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Eduard','Michelin','Asistent',10);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Sedsiro','Isibaki','Insener',10);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Bill','Haven','Administrator',10);
+insert into Tootaja(nimi, perenimi, amet, salong)
+values('Jukko','Moisio','Tehnik',10);
+
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Andre','Giant',2,1);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Barack','Obama',2,1);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Dwayne','Johnson',1,1);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Donald','Trump',1,1);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Jericho','Iniko',3,3);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Aleksandr','Bellen',3,3);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Georg','Ots',4,4);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Katalin','Novak',4,4);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Freidrich','Kreutswald',5,5);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Frank','SteinMeier',5,5);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Anton','Tammsaare',6,6);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Michael','Higgins',6,6);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Michael','Jackson',7,7);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Serjo','Matarella',7,7);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Tom','Hardy',8,8);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Andjey','Duda',8,8);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Woody','Harrelson',9,9);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Sauli','Niinistö',9,9);
+insert into Klient(nimi, perenimi, teenus, salong)
+values('Alan','Karris',10,10);
