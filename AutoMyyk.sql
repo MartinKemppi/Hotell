@@ -494,24 +494,109 @@ values(17990);
 INSERT INTO hind(Hind)
 values(1499);
 
-INSERT INTO `auto` (`keretyyp`, `mark`, `mudel`, `aasta`, `hind`, `kw`, `kytus`, `kaigukast`, `salong`) VALUES
-(1, 1, 1, 1, 1, 1, 1, 1, 1),
-(2, 2, 2, 2, 2, 2, 2, 2, 2),
-(3, 3, 3, 3, 3, 3, 3, 3, 3),
-(4, 4, 4, 4, 4, 4, 4, 1, 4),
-(5, 5, 5, 5, 5, 5, 5, 2, 5),
-(6, 6, 6, 6, 6, 6, 6, 3, 6),
-(7, 7, 7, 7, 7, 7, 7, 1, 7),
-(, 8, 8, 8, 8, 8, 8, 2, 8),
-(1, 9, 9, 9, 9, 9, 9, 3, 9),
-(2, 10, 10, 10, 10, 10, 10, 1, 10),
-(1, 1, 1, 1, 1, 1, 1, 1, 1),
-(2, 2, 2, 2, 2, 2, 2, 2, 2),
-(, 3, 3, 3, 3, 3, 3, 3, 3),
-(4, 4, 4, 4, 4, 4, 4, 1, 4),
-(5, 5, 5, 5, 5, 5, 5, 2, 5),
-(6, 6, 6, 6, 6, 6, 6, 3, 6),
-(7, 7, 7, 7, 7, 7, 7, 1, 7),
-(8, 8, 8, 8, 8, 8, 8, 2, 8),
-(1, 9, 9, 9, 9, 9, 9, 3, 9),
-(2, 10, 10, 10, 10, 10, 10, 1, 10);
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (1, 1, 1, 1, 1, 1, 1, 1)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (2, 2, 2, 2, 2, 2, 2, 2)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (3, 3, 3, 3, 3, 3, 3, 3)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (4, 4, 4, 4, 4, 4, 1, 4)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (5, 5, 5, 5, 5, 5, 2, 5)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (6, 6, 6, 6, 6, 6, 3, 6)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (7, 7, 7, 7, 7, 7, 1, 7)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (8, 8, 8, 8, 8, 8, 2, 8)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (9, 9, 9, 9, 9, 9, 3, 9)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (10, 10, 10, 10, 10, 10, 1, 10)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (1, 1, 1, 1, 1, 1, 1, 1)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (2, 2, 2, 2, 2, 2, 2, 2)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (3, 3, 3, 3, 3, 3, 3, 3)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (4, 4, 4, 4, 4, 4, 4, 1, 4)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (5, 5, 5, 5, 5, 5, 5, 2, 5)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (6, 6, 6, 6, 6, 6, 6, 3, 6)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (7, 7, 7, 7, 7, 7, 7, 1, 7)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (8, 8, 8, 8, 8, 8, 8, 2, 8)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (1, 9, 9, 9, 9, 9, 9, 3, 9)
+INSERT INTO auto (keretyyp, mark, mudel, aasta, hind, kw, kytus, kaigukast, salong) 
+VALUES (2, 10, 10, 10, 10, 10, 10, 1, 10)
+
+GRANT ALL PRIVILEGES ON Aasta TO Esimees;
+GRANT ALL PRIVILEGES ON Auto TO Esimees;
+GRANT ALL PRIVILEGES ON Hind TO Esimees;
+GRANT ALL PRIVILEGES ON Kaigukast TO Esimees;
+GRANT ALL PRIVILEGES ON Keretyyp TO Esimees;
+GRANT ALL PRIVILEGES ON Klient TO Esimees;
+GRANT ALL PRIVILEGES ON Koht TO Esimees;
+GRANT ALL PRIVILEGES ON kW TO Esimees;
+GRANT ALL PRIVILEGES ON Kytus TO Esimees;
+GRANT ALL PRIVILEGES ON Mark TO Esimees;
+GRANT ALL PRIVILEGES ON Mudel TO Esimees;
+GRANT ALL PRIVILEGES ON Salong TO Esimees;
+GRANT ALL PRIVILEGES ON Teenus TO Esimees;
+GRANT ALL PRIVILEGES ON Teenuse_tyyp TO Esimees;
+GRANT ALL PRIVILEGES ON Tootaja TO Esimees;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON Auto TO Myyja;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Klient TO Myyja;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Teenus TO Myyja;
+
+CREATE PROCEDURE LisaUuendaKustutaDB
+    @Command VARCHAR(10),
+    @Table VARCHAR(50),
+    @ID INT,
+    @VEERG1 VARCHAR(50),
+    @ANDME1 VARCHAR(255),
+    @VEERG2 VARCHAR(50) = NULL,
+    @ANDME2 VARCHAR(255) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+	DECLARE @SqlQuery NVARCHAR(MAX)
+    IF @Command = 'ADD'
+    BEGIN       
+        SET @SqlQuery = 'INSERT INTO ' + @Table + '(' + @VEERG1
+        IF @VEERG2 IS NOT NULL
+        BEGIN
+            SET @SqlQuery = @SqlQuery + ',' + @VEERG2
+        END
+        SET @SqlQuery = @SqlQuery + ') VALUES (''' + @VEERG1 + ''''
+        IF @ANDME2 IS NOT NULL
+        BEGIN
+            SET @SqlQuery = @SqlQuery + ',''' + @VEERG2 + ''''
+        END
+        SET @SqlQuery = @SqlQuery + ')'
+        EXEC sp_executesql @SqlQuery
+    END
+
+    IF @Command = 'UPDATE'
+    BEGIN
+        SET @SqlQuery = 'UPDATE ' + @Table + ' SET ' + @VEERG1 + ' = ''' + @ANDME1 + ''''
+        IF @VEERG2 IS NOT NULL
+        BEGIN
+            SET @SqlQuery = @SqlQuery + ',' + @VEERG2 + ' = ''' + @ANDME2 + ''''
+        END
+        SET @SqlQuery = @SqlQuery + ' WHERE ID = ' + CAST(@ID AS NVARCHAR(10))
+        EXEC sp_executesql @SqlQuery
+    END
+
+    IF @Command = 'DELETE'
+    BEGIN
+        SET @SqlQuery = 'DELETE FROM ' + @Table + ' WHERE ID = ' + CAST(@ID AS NVARCHAR(10))
+        EXEC sp_executesql @SqlQuery
+    END
+END
