@@ -494,23 +494,24 @@ values(17990);
 INSERT INTO hind(Hind)
 values(1499);
 
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(1,1,1,1,1,1,1,1,1);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(2,2,2,2,2,2,2,2,2);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(3,3,3,3,3,3,3,3,3);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(4,4,4,4,4,4,4,4,4);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(5,5,5,5,5,5,5,5,5);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(6,6,6,6,6,6,6,6,6);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(7,7,7,7,7,7,7,7,7);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(8,8,8,8,8,8,8,8,8);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(9,9,9,9,9,9,9,9,9);
-INSERT into auto(keretyyp,mark,mudel,aasta,hind,kw,kytus,kaigukast,salong)
-values(10,10,10,10,10,10,10,10,10);
+INSERT INTO `auto` (`keretyyp`, `mark`, `mudel`, `aasta`, `hind`, `kw`, `kytus`, `kaigukast`, `salong`) VALUES
+(1, 1, 1, 1, 1, 1, 1, 1, 1),
+(2, 2, 2, 2, 2, 2, 2, 2, 2),
+(3, 3, 3, 3, 3, 3, 3, 3, 3),
+(4, 4, 4, 4, 4, 4, 4, 1, 4),
+(5, 5, 5, 5, 5, 5, 5, 2, 5),
+(6, 6, 6, 6, 6, 6, 6, 3, 6),
+(7, 7, 7, 7, 7, 7, 7, 1, 7),
+(, 8, 8, 8, 8, 8, 8, 2, 8),
+(1, 9, 9, 9, 9, 9, 9, 3, 9),
+(2, 10, 10, 10, 10, 10, 10, 1, 10),
+(1, 1, 1, 1, 1, 1, 1, 1, 1),
+(2, 2, 2, 2, 2, 2, 2, 2, 2),
+(, 3, 3, 3, 3, 3, 3, 3, 3),
+(4, 4, 4, 4, 4, 4, 4, 1, 4),
+(5, 5, 5, 5, 5, 5, 5, 2, 5),
+(6, 6, 6, 6, 6, 6, 6, 3, 6),
+(7, 7, 7, 7, 7, 7, 7, 1, 7),
+(8, 8, 8, 8, 8, 8, 8, 2, 8),
+(1, 9, 9, 9, 9, 9, 9, 3, 9),
+(2, 10, 10, 10, 10, 10, 10, 1, 10);
