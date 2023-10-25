@@ -600,3 +600,49 @@ BEGIN
         EXEC sp_executesql @SqlQuery
     END
 END
+
+
+create table Logi(
+    logi_id int PRIMARY key identity(1,1),
+    kuupaev datetime,
+    toiming varchar(100),
+    andmed TEXT);
+
+create trigger kliendiLisamine
+on Klient
+for insert
+as
+insert into logi(kuupaev, toiming, andmed)
+select GETDATE(), 
+CONCAT(inserted.nimi, ', ', inserted.perenimi, ', ', inserted.telefon),
+'klient on lisatud'
+from inserted
+
+--kontroll
+ 
+insert into Klient(nimi, perenimi, telefon)
+values('Andres','Toriko','55603080');
+select * from Klient;
+select * from logi;
+
+create trigger kliendiUuendamine
+on Klient
+for update
+as
+insert into logi(kuupaev, toiming, andmed)
+select GETDATE(), 
+CONCAT(
+'VANAD - ', deleted.nimi, ', ', deleted.perenimi, ', ', deleted.telefon,
+' UUED - ', inserted.nimi, ', ', inserted.perenimi, ', ', inserted.telefon
+),
+'klient on uuendatud'
+from deleted INNER JOIN inserted
+on  deleted.klient_ID = inserted.klient_ID
+
+--kontroll
+ 
+select * from Klient
+update Klient SET perenimi = 'Torikko'
+where klient_ID = 20;
+select * from Klient;
+select * from logi;
